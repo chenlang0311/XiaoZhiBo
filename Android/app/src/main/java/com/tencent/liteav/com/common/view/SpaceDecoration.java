@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.common.view;
+package com.tencent.liteav.com.common.view;
 
 import android.graphics.Rect;
 import android.view.View;

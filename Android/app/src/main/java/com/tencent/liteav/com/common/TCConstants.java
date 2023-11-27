@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.common;
+package com.tencent.liteav.com.common;
 
 
 /**

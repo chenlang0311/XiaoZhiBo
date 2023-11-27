@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.app;
+package com.tencent.liteav.com.app;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,9 +20,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.tencent.imsdk.v2.V2TIMCallback;
 import com.tencent.liteav.basic.UserModelManager;
+import com.tencent.liteav.com.common.view.ConfirmDialogFragment;
+import com.tencent.liteav.com.common.view.RoundCornerImageView;
 import com.tencent.liteav.demo.R;
-import com.tencent.liteav.demo.common.view.ConfirmDialogFragment;
-import com.tencent.liteav.demo.common.view.RoundCornerImageView;
 import com.tencent.liteav.login.model.ProfileManager;
 import com.tencent.liteav.login.ui.LoginActivity;
 import com.tencent.liteav.login.ui.LoginWithoutServerActivity;

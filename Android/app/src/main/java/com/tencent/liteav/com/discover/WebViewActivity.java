@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.discover;
+package com.tencent.liteav.com.discover;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -15,6 +15,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 import com.tencent.liteav.demo.R;
+
 
 public class WebViewActivity extends Activity {
 

@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.app;
+package com.tencent.liteav.com.app;
 
 import android.app.Activity;
 import android.os.Build;

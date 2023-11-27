@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.common.view;
+package com.tencent.liteav.com.common.view;
 
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.tencent.liteav.demo.R;
+
 
 public class ShowTipDialogFragment extends DialogFragment {
 

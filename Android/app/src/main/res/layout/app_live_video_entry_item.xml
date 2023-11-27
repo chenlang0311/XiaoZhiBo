@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/app_bg_item_main_list">
 
-        <com.tencent.liteav.demo.common.view.RoundCornerImageView
+        <com.tencent.liteav.com.common.view.RoundCornerImageView
             android:id="@+id/img_big_bg"
             android:layout_width="match_parent"
             android:layout_height="136dp"

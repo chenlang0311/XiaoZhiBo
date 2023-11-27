@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.app;
+package com.tencent.liteav.com.app;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -13,6 +13,7 @@ import androidx.core.app.NotificationCompat;
 
 import com.blankj.utilcode.util.ServiceUtils;
 import com.tencent.liteav.demo.R;
+
 
 public class KeepAliveService extends Service {
     private static final int NOTIFICATION_ID = 1001;

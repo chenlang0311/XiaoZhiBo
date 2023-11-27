@@ -45,7 +45,7 @@ public class GenerateTestUserSig {
      * You can view your `SDKAppId` after creating an application in the [Tencent Cloud IM console](https://console.cloud.tencent.com/avc).
      * SDKAppID uniquely identifies a Tencent Cloud account.
      */
-    public static final int SDKAPPID = PLACEHOLDER;
+    public static final int SDKAPPID = 1600004380;
 
 
     /**
@@ -62,7 +62,7 @@ public class GenerateTestUserSig {
      * key: url_push         Gets the RTMP push address
      * key: url_play_flv     Gets the FLV playback address
      */
-    public static final String URL_FETCH_PUSH_URL = "PLACEHOLDER";
+    public static final String URL_FETCH_PUSH_URL = "https://service-lqp6ki6e-1257335989.gz.apigw.tencentcs.com/release/";
 
     /**
      * Follow the steps below to obtain the key required for UserSig calculation.
@@ -77,7 +77,7 @@ public class GenerateTestUserSig {
      * to prevent key disclosure and traffic stealing.
      * Documentation: https://cloud.tencent.com/document/product/269/32688#Server
      */
-    private static final String SECRETKEY = "PLACEHOLDER";
+    private static final String SECRETKEY = "2cd6a415a3308e344be42e89e856786e87e482260149736abe5725862d5b29bd";
 
 
     /**
@@ -104,7 +104,7 @@ public class GenerateTestUserSig {
      * License Management View (https://console.cloud.tencent.com/live/license)
      * License URL of your application
      */
-    public static final String LICENSEURL = "请替换成您的licenseURL";
+    public static final String LICENSEURL = "https://license.vod2.myqcloud.com/license/v2/1257335989_1/v_cube.license";
 
     /**
      * 腾讯云直播license管理页面(https://console.cloud.tencent.com/live/license)
@@ -113,21 +113,21 @@ public class GenerateTestUserSig {
      * License Management View (https://console.cloud.tencent.com/live/license)
      * License key of your application
      */
-    public static final String LICENSEURLKEY = "请替换成您的licenseKey";
+    public static final String LICENSEURLKEY = "690f65f0ba08ff7937fefbaf15021d8e";
 
     /**
      * 配置的后台服务域名，类似：https://service-3vscss6c-xxxxxxxxxxx.gz.apigw.tencentcs.com"
      * <p>
      * 小直播后台提供有登录、房间列表等服务，更多细节见文档：https://cloud.tencent.com/document/product/454/38625
      */
-    public static final String SERVERLESSURL = "PLACEHOLDER";
+    public static final String SERVERLESSURL = "https://service-lqp6ki6e-1257335989.gz.apigw.tencentcs.com/release/";
 
     /**
      * 配置的播放域名
      * <p>
      * 腾讯云域名管理页面：https://console.cloud.tencent.com/live/domainmanage
      */
-    public static final String PLAY_DOMAIN = "PLACEHOLDER";
+    public static final String PLAY_DOMAIN = "192341.push.tlivecloud.com";
 
     /**
      * Calculating UserSig

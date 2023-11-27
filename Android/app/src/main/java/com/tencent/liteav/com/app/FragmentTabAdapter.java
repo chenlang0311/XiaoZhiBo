@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.app;
+package com.tencent.liteav.com.app;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;

@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.discover;
+package com.tencent.liteav.com.discover;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import androidx.fragment.app.Fragment;
 
 import com.tencent.liteav.demo.R;
+
 
 public class DiscoverFragment extends Fragment {
     private static final String TAG     = "WebFindFragment";

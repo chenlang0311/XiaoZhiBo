@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.app;
+package com.tencent.liteav.com.app;
 
 import static com.tencent.liteav.debug.GenerateTestUserSig.LICENSEURL;
 import static com.tencent.liteav.debug.GenerateTestUserSig.LICENSEURLKEY;
@@ -18,10 +18,10 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
+import com.tencent.liteav.com.aboutme.UserInfoFragment;
+import com.tencent.liteav.com.common.view.ConfirmDialogFragment;
+import com.tencent.liteav.com.discover.DiscoverFragment;
 import com.tencent.liteav.demo.R;
-import com.tencent.liteav.demo.aboutme.UserInfoFragment;
-import com.tencent.liteav.demo.common.view.ConfirmDialogFragment;
-import com.tencent.liteav.demo.discover.DiscoverFragment;
 import com.tencent.liteav.showlive.ui.floatwindow.FloatWindow;
 import com.tencent.rtmp.TXLiveBase;
 

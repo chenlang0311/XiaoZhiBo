@@ -101,7 +101,6 @@ public class ProfileManager {
                 .build();
         mApi = mRetrofit.create(Api.class);
         initBackHandler();
-
     }
 
     private void initBackHandler() {

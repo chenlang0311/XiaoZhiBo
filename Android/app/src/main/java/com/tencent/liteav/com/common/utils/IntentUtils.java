@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.common.utils;
+package com.tencent.liteav.com.common.utils;
 
 import android.app.Application;
 import android.content.ActivityNotFoundException;

@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.app;
+package com.tencent.liteav.com.app;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -18,8 +18,8 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.tencent.liteav.basic.UserModelManager;
+import com.tencent.liteav.com.common.utils.IntentUtils;
 import com.tencent.liteav.demo.R;
-import com.tencent.liteav.demo.common.utils.IntentUtils;
 import com.tencent.liteav.login.ui.LoginActivity;
 import com.tencent.liteav.login.ui.LoginWithoutServerActivity;
 

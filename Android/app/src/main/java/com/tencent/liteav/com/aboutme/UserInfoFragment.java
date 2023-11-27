@@ -1,4 +1,4 @@
-package com.tencent.liteav.demo.aboutme;
+package com.tencent.liteav.com.aboutme;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,8 +12,8 @@ import androidx.fragment.app.Fragment;
 
 import com.tencent.liteav.basic.ImageLoader;
 import com.tencent.liteav.basic.UserModelManager;
+import com.tencent.liteav.com.common.view.ShowTipDialogFragment;
 import com.tencent.liteav.demo.R;
-import com.tencent.liteav.demo.common.view.ShowTipDialogFragment;
 import com.tencent.liteav.login.ui.view.ModifyUserAvatarDialog;
 
 import de.hdodenhof.circleimageview.CircleImageView;

@@ -4,7 +4,7 @@
     package="com.tencent.liteav.demo">
 
     <application
-        android:name=".app.DemoApplication"
+        android:name="com.tencent.liteav.com.app.DemoApplication"
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -16,11 +16,11 @@
 
 
         <activity
-            android:name=".app.NavigationActivity"
+            android:name="com.tencent.liteav.com.app.NavigationActivity"
             android:launchMode="singleTask"
             android:theme="@style/AppThemeMain" />
         <activity
-            android:name=".app.SplashActivity"
+            android:name="com.tencent.liteav.com.app.SplashActivity"
             android:launchMode="singleTask"
             android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
             <intent-filter>
@@ -48,7 +48,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".app.MainActivity"
+            android:name="com.tencent.liteav.com.app.MainActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/app_name"
             android:launchMode="singleTask"
@@ -64,12 +64,12 @@
             android:name="com.tencent.rtmp.video.TXScreenCapture$TXScreenCaptureAssistantActivity"
             android:theme="@android:style/Theme.Translucent" />
         <activity
-            android:name=".aboutme.AboutActivity"
+            android:name="com.tencent.liteav.com.aboutme.AboutActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeMain" />
         <activity
-            android:name=".discover.WebViewActivity"
+            android:name="com.tencent.liteav.com.discover.WebViewActivity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeMain">
@@ -80,13 +80,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".aboutme.LogOffActivity"
+            android:name="com.tencent.liteav.com.aboutme.LogOffActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeMain" />
 
         <service
-            android:name=".app.KeepAliveService"
+            android:name="com.tencent.liteav.com.app.KeepAliveService"
             android:enabled="true"
             android:exported="false" />
     </application>
